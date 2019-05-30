@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#border{
+  display: flex;
+  width:400px;
+  flex-wrap: wrap;
+
+}
+#squre{
+  width:100px;  
+  border:0.5px solid black;
+  height:20px;  
+}
