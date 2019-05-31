@@ -1,0 +1,16 @@
+<PTM>
+<App>
+<DomainNameID>1</DomainNameID>
+<DomainName>Tracker</DomainName>
+<DomainURL>https://tracker.cloudvault.m-files.com/Default.aspx</DomainURL>
+<DomainUserName>ext_munsar@motivesys.com </DomainUserName>
+<DomainPassword>aspiresys@123</DomainPassword>
+</App>
+<App>
+<DomainNameID>2</DomainNameID>
+<DomainName>QA Vault</DomainName>
+<DomainURL>https://qa.cloudvault.m-files.com/</DomainURL>
+<DomainUserName>ext_munsar@motivesys.com </DomainUserName>
+<DomainPassword>aspiresys@123</DomainPassword>
+</App>
+</PTM>

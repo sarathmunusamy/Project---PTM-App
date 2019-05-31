@@ -15,12 +15,17 @@ import {
   ItemDescription
 } from "semantic-ui-react";
 
+
+import MainViewComponent from "./MainViewComponent.js";
+
 class App extends Component {
   render() {
     return (
       <Segment>
         <Container>
-Hai
+          <MainViewComponent>
+
+          </MainViewComponent>
         </Container>
       </Segment>
     );

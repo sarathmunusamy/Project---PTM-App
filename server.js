@@ -28,8 +28,19 @@ app.use(busboy());
 
 const router = express.Router();
 
-app.post("/api/ChangePlistFiles", (req, res) => {
-  changePlistFiles(req, res);
+function readDomainFile(callback) {
+  fs.readFile("./Data/DomainList.xml", function(err, data) {
+    var json = JSON.parse(parser.toJson(data, { reversible: true }));
+    callback(json);
+  });
+}
+
+app.post("/api/getAllTask", (req, res) => {
+  readDomainFile(function(data){
+    return res.send(data);
+  });
+
+
 });
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
